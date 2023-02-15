@@ -14,7 +14,7 @@ export default function HeroClasses () {
                 <h3 className="text-md lg:text-lg text-rose-100 text-opacity-80 p-4 m-4 text-center max-w-xl">
                     You can book an English class here:
                 </h3>
-                <div className="h-96 w-96 calendly-inline-widget" data-url="https://calendly.com/constanceingram94"></div>    
+                <div className="h-96 w-72 calendly-inline-widget" data-url="https://calendly.com/constanceingram94"></div>    
             </div>
         </div>
         

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import { Inter } from '@next/font/google'
@@ -9,6 +10,7 @@ import HeroLevels from '@/components/herolevels'
 import HeroHello from '@/components/herohello'
 import HeroClasses from '@/components/heroclasses'
 import LearnLevels from '@/components/learnlevels'
+import PlacementTest from '@/components/placementtest'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,7 +31,7 @@ export default function FreePlacementTest() {
           </svg>
         </div>
       </div>
-      
+      <PlacementTest />
       <Footer />
     </>
   )
