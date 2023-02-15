@@ -29,7 +29,7 @@ export default function FreePlacementTest() {
           </svg>
         </div>
       </div>
-      <LearnLevels />
+      
       <Footer />
     </>
   )

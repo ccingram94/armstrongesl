@@ -8,6 +8,7 @@ import AboutTeacher from '@/components/aboutteacher'
 import HeroLevels from '@/components/herolevels'
 import HeroHello from '@/components/herohello'
 import HeroClasses from '@/components/heroclasses'
+import LevelIntro3 from '@/components/levelintro3'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,9 +29,7 @@ export default function Advanced() {
           </svg>
         </div>
       </div>
-      <div className="flex flex-row flex-wrap min-h-screen">
-        <p>hello world</p>
-      </div>
+      <LevelIntro3 />
       <Footer />
     </>
   )
