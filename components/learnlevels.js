@@ -8,7 +8,10 @@ export default function LearnLevels () {
 
             <div className="flex flex-col justify-center items-center text-center px-12 relative">
                 <h1 className="text-6xl font-bold p-2 m-2 text-rose-600">Explore English!</h1>
-                <button className="p-4 m-2 drop-shadow-2xl max-w-fit rounded-xl bg-gradient-to-r from-rose-600 to-pink-600 opacity-80 hover:opacity-100 text-xl font-bold text-rose-100 text-start transition-all">Free Placement Test</button>
+                <Link href="/freeplacementtest">
+                    <button className="p-4 m-2 drop-shadow-2xl max-w-fit rounded-xl bg-gradient-to-r from-rose-600 to-pink-600 opacity-80 hover:opacity-100 text-xl font-bold text-rose-100 text-start transition-all">Free Placement Test</button>
+                </Link>
+                
             </div>
             <div className="p-2 m-2 flex flex-row flex-wrap justify-center items-center relative">
                 <Link href="/learn/beginner">
