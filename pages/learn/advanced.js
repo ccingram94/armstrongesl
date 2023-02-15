@@ -9,6 +9,7 @@ import HeroLevels from '@/components/herolevels'
 import HeroHello from '@/components/herohello'
 import HeroClasses from '@/components/heroclasses'
 import LevelIntro3 from '@/components/levelintro3'
+import AdvancedSections from '@/components/advancedsections'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -30,6 +31,7 @@ export default function Advanced() {
         </div>
       </div>
       <LevelIntro3 />
+      <AdvancedSections />
       <Footer />
     </>
   )

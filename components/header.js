@@ -18,7 +18,9 @@ export default function Header () {
                             </div>
                         </Link>
 
-                        <h2 className="font-bold mx-2 lg:p-2">Classes</h2>
+                        <Link href="/classes">
+                            <h2 className="font-bold mx-2 lg:p-2">Classes</h2>
+                        </Link>
 
                         <Link href="/about">
                             <h3 className="font-bold mx-2 lg:p-2">About</h3>

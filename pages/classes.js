@@ -1,19 +1,18 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Header from '../../components/header'
-import Footer from '../../components/footer'
+import Header from '../components/header'
+import Footer from '../components/footer'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import AboutTeacher from '@/components/aboutteacher'
 import HeroLevels from '@/components/herolevels'
 import HeroHello from '@/components/herohello'
 import HeroClasses from '@/components/heroclasses'
-import LevelIntro from '@/components/levelintro'
-import BeginnerSections from '@/components/beginnersections'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Beginner() {
+export default function Classes() {
   return (
     <>
       <Head>
@@ -30,8 +29,9 @@ export default function Beginner() {
           </svg>
         </div>
       </div>
-      <LevelIntro />
-      <BeginnerSections />
+      <div className='min-h-screen bg-rose-600'>
+        <HeroClasses />
+      </div>
       <Footer />
     </>
   )
