@@ -28,7 +28,7 @@ export default function Header () {
                         
                         
                         <UserCircleIcon className="h-8 w-8 mx-2 text-rose-600"/>
-                        <h2 className='max-2 sm:p-1 invisible sm:visible font-bold bg-rose-600 bg-opacity-10 hover:bg-rose-600 hover:bg-opacity-20 transition-all rounded-xl sm:visible'>🇺🇸 EN</h2>
+                        
                     </div> 
                 </div>
             </div>
