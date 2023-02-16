@@ -19,6 +19,9 @@ export default function LearnLevels () {
                         <p className="text-xl text-rose-600 font-bold pt-6 m-2 ">Beginner</p>
                         <p className="text-sm text-rose-600 opacity-80"><i>CEFR A1 - A2</i></p>
                         <p className="text-xs max-w-xs text-rose-600 opacity-80 p-2 m-2">CEFR A1 and A2 are the beginner levels of the Common European Framework of Reference for Languages (CEFR). At these levels, students are introduced to basic vocabulary and grammar rules that enable them to communicate in simple, everyday situations.</p>
+                        <Link href="/learn/beginner">
+                            <button className="p-4 m-2 drop-shadow-2xl max-w-fit rounded-xl bg-gradient-to-r from-rose-600 to-pink-600 opacity-80 hover:opacity-100 text-xl font-bold text-rose-100 text-start transition-all">Beginner Study</button>
+                        </Link>
                     </div>
                 </Link>
                 <Link href="/learn/intermediate">
@@ -26,6 +29,9 @@ export default function LearnLevels () {
                         <p className="text-xl text-rose-600 font-bold pt-6 m-2 ">Intermediate</p>
                         <p className="text-sm text-rose-600 opacity-80 p-2"><i>CEFR B1 - B2</i></p>
                         <p className="text-xs max-w-xs text-rose-600 opacity-80 p-2 m-2">CEFR B1 and B2 are the intermediate levels of learning English. At these levels, students have progressed beyond the basics and can communicate in a wider range of situations and express their ideas with more fluency.</p>
+                        <Link href="/learn/intermediate">
+                            <button className="p-4 m-2 drop-shadow-2xl max-w-fit rounded-xl bg-gradient-to-r from-rose-600 to-pink-600 opacity-80 hover:opacity-100 text-xl font-bold text-rose-100 text-start transition-all">Intermediate Study</button>
+                        </Link>
                     </div>
                 </Link>
                 <Link href="/learn/advanced">
@@ -33,6 +39,9 @@ export default function LearnLevels () {
                         <p className="text-xl text-rose-600 font-bold pt-6 m-2 ">Advanced</p>
                         <p className="text-sm text-rose-600 opacity-80 p-2"><i>CEFR C1 - C2</i></p>
                         <p className="text-xs max-w-xs text-rose-600 opacity-80 p-2 m-2">CEFR C1 and C2 levels are the advanced levels of learning English.  At these levels, students are near-native level fluent and can communicate in a wide range of contexts, using specialized language in professional, academic, and social settings.</p>
+                        <Link href="/learn/advanced">
+                            <button className="p-4 m-2 drop-shadow-2xl max-w-fit rounded-xl bg-gradient-to-r from-rose-600 to-pink-600 opacity-80 hover:opacity-100 text-xl font-bold text-rose-100 text-start transition-all">Advanced Study</button>
+                        </Link>
                     </div>
                 </Link>
 
