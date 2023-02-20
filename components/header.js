@@ -10,7 +10,7 @@ export default function Header () {
         <>
     
         
-        <div className="w-screen lg:p-2 bg-white flex flex-col justify-center items-center drop-shadow-sm">
+        <div className="w-full lg:p-2 bg-white flex flex-col justify-center items-center drop-shadow-sm">
             <div className="lg:p-2 flex flex-row justify-between md:w-9/12">
                 <Link href="/">
                     <h1 className="font-bold text-xl lg:text-3xl text-transparent bg-clip-text bg-gradient-to-b from-red-400 to-rose-600 opacity-90 m-4">Mrs. A</h1>

@@ -377,10 +377,10 @@ export default function PlacementTest () {
 
 
     return (
-        <div className="w-screen min-h-screen pt-12 bg-gradient-to-b from-white to-red-200 flex flex-col items-center z-2">
+        <div className="w-screen min-h-screen pt-12 bg-gradient-to-b from-white to-red-100 flex flex-col items-center z-2">
             {!begin &&
                 <div className="flex flex-col justify-center items-center text-center px-12">
-                    <h1 className="text-6xl font-bold p-2 m-2 text-rose-600">English Placement Test</h1>
+                    <h1 className="text-6xl font-bold p-2 m-2 text-3xl lg:text-6xl font-bold p-2 m-2 text-transparent bg-clip-text bg-gradient-to-b from-red-400 to-rose-600">English Placement Test</h1>
                     <div className="max-w-lg text-md p-2 m-2 flex flex-col text-rose-700">
                         <p className="p-2">Welcome to our free online English language placement test!</p>
                         <p className="p-2">Our placement test is based on the internationally recognized Common European Framework of Reference for Languages (CEFR). It will test your proficiency in English and provide an instant score from A1 to C2 level proficiency in English.  The questions will range from very easy to very difficult.</p>
@@ -390,7 +390,7 @@ export default function PlacementTest () {
             }
             {begin &&
                 <div className="flex flex-col justify-center items-center text-center px-12 relative">
-                    <h1 className="text-6xl font-bold p-2 m-2 text-rose-600">English Placement Test</h1>
+                    <h1 className="text-3xl lg:text-6xl font-bold p-2 m-2 text-transparent bg-clip-text bg-gradient-to-b from-red-400 to-rose-600">English Placement Test</h1>
                     {!showScore && 
                         <div className="w-full text-md p-2 m-2 flex flex-col justify-center items-center text-rose-700 bg-gradient-to-r from-rose-600 to-pink-600 rounded-xl text-white">
                             <h3 className="font-bold text-xl lg:text-3xl p-2 m-2">

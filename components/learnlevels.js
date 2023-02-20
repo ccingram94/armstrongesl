@@ -4,10 +4,10 @@ import Link from 'next/link'
 
 export default function LearnLevels () {
     return (
-        <div className="w-screen min-h-screen pt-12 bg-gradient-to-b from-rose-100 to-pink-100 flex flex-col items-center z-2">
+        <div className="w-screen min-h-screen pt-12 bg-gradient-to-b from-white to-red-100 flex flex-col items-center z-2">
 
             <div className="flex flex-col justify-center items-center text-center px-12 relative">
-                <h1 className="text-6xl font-bold p-2 m-2 text-rose-600">Explore English!</h1>
+                <h1 className="text-3xl lg:text-6xl font-bold p-2 m-2 text-transparent bg-clip-text bg-gradient-to-b from-red-400 to-rose-600">Explore English!</h1>
                 <Link href="/freeplacementtest">
                     <button className="p-4 m-2 drop-shadow-2xl max-w-fit rounded-xl bg-gradient-to-r from-rose-600 to-pink-600 opacity-80 hover:opacity-100 text-xl font-bold text-rose-100 text-start transition-all">Free Placement Test</button>
                 </Link>

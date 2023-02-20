@@ -7,7 +7,7 @@ import { useState } from 'react'
 export default function TopHeader () {
     const [ top, showTop ] = useState(true);
     if (top) return (
-        <div className='w-screen flex flex-row flex-wrap justify-center items-center font-bold bg-gradient-to-r from-pink-600 to-red-600 via-rose-600'>
+        <div className='w-full flex flex-row flex-wrap justify-center items-center font-bold bg-gradient-to-r from-pink-600 to-red-600 via-rose-600'>
             <p className='p-2 text-rose-100'>Explore our new English proficiency test: </p>
             <Link href="/freeplacementtest">
                 <button className='bg-rose-800 hover:bg-rose-100 transition-all drop-shadow-2xl text-white hover:text-rose-800 rounded-xl m-2'>

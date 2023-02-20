@@ -3,10 +3,10 @@ import Image from "next/image"
 
 export default function AboutTeacher () {
     return (
-        <div className="w-screen p-2 bg-gradient-to-b from-pink-100 to-rose-100 flex flex-col flex-wrap justify-center items-center">
+        <div className="w-full p-2 bg-gradient-to-b from-white to-red-200 flex flex-col flex-wrap justify-center items-center">
 
             <div className="flex flex-col justify-center items-center">
-                <h2 className="text-xl lg:text-3xl font-bold text-rose-600 text-opacity-80 p-2 m-2 pt-12 relative">About Mrs. A</h2>
+                <h2 className="text-3xl lg:text-6xl font-bold p-2 m-2 text-transparent bg-clip-text bg-gradient-to-b from-red-400 to-rose-600">About</h2>
                 <h3 className="text-md lg:text-lg text-rose-600 text-opacity-80 p-4 m-4 text-center max-w-xl relative">
                     Mrs. Armstrong is an ESL teacher living in Colorado.  
                     She holds a Bachelor of Arts degree from The University of Texas at Austin and three TEFL certificates.
