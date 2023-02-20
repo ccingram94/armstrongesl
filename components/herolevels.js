@@ -4,7 +4,8 @@ import Link from 'next/link'
 
 export default function HeroLevels () {
     return (
-        <div className="w-screen pb-24 bg-gradient-to-b from-rose-100 to-pink-100 flex flex-row flex-wrap justify-center items-center z-2">
+        <>
+        <div className="w-screen pb-24 bg-gradient-to-b from-red-100 to-rose-200 flex flex-row flex-wrap justify-center items-center z-2">
 
             <div className="flex flex-col px-12 pt-24 relative">
                 <h1 className="text-6xl font-bold p-2 m-2 text-rose-600">English is Easy!</h1>
@@ -53,7 +54,14 @@ export default function HeroLevels () {
 
                 </div>
             </div>
-
         </div>
+        <div className="z-1">
+            <div className="z-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className='absolute'>
+                <path fill="#FECDD3" fill-opacity="1" d="M0,96L80,90.7C160,85,320,75,480,106.7C640,139,800,213,960,224C1120,235,1280,181,1360,154.7L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+            </svg>
+            </div>
+        </div>
+        </>
     )
 }
