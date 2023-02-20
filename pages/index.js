@@ -9,6 +9,7 @@ import AboutTeacher from '@/components/aboutteacher'
 import HeroLevels from '@/components/herolevels'
 import HeroHello from '@/components/herohello'
 import HeroClasses from '@/components/heroclasses'
+import TopHeader from '@/components/topheader'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <Script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" strategy="lazyOnload"></Script>
       </Head>
+      <TopHeader />
       <Header />
       <div className="z-1">
         <div className="z-1 relative">

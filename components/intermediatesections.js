@@ -40,5 +40,5 @@ export default function IntermediateSections () {
 
             </div>
         </div>
-    )
+    ) 
 }

@@ -2,7 +2,7 @@
 import Image from "next/image"
 import Link from 'next/link'
 
-export default function LevelIntro () {
+export default function LevelIntro () { 
     return (
         <div className="w-screen pb-24 bg-gradient-to-b from-rose-100 to-pink-100 flex flex-row flex-wrap justify-center items-center z-2">
 
