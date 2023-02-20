@@ -10,7 +10,7 @@ export default function Header () {
         <>
     
         
-        <div className="w-screen p-4 bg-red-100 flex flex-col justify-center items-center drop-shadow-sm">
+        <div className="w-screen p-2 lg:p-4 bg-red-100 flex flex-col justify-center items-center drop-shadow-sm">
             <div className="p-4 flex flex-row justify-between md:w-9/12">
                 <Link href="/">
                     <h1 className="font-bold text-xl lg:text-3xl text-rose-600 opacity-90 m-4">Mrs. A</h1>
