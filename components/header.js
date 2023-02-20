@@ -16,7 +16,7 @@ export default function Header () {
                     <h1 className="font-bold text-xl lg:text-3xl text-transparent bg-clip-text bg-gradient-to-b from-red-400 to-rose-600 opacity-90 m-4">Mrs. A</h1>
                 </Link>
                 
-                <div className="max-w-1/2 flex flex-row justify-center">
+                <div className="max-w-1/2 flex flex-row justify-center ">
                     <div className="flex flex-row items-center text-rose-600 lg:m-4">
                         <Link href="/learn">
                             <div className='flex flex-row justify-center items-center'>
