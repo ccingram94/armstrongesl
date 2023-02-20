@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function HeroLevels () {
     return (
         <>
-        <div className="w-screen pb-24 bg-gradient-to-b from-rose-100 to-rose-200 flex flex-row flex-wrap justify-center items-center z-2">
+        <div className="w-screen pb-24 bg-gradient-to-b from-white to-rose-200 flex flex-row flex-wrap justify-center items-center z-2">
             <div className="flex flex-col px-12">
                 <h1 className="text-6xl font-bold p-2 m-2 text-transparent bg-clip-text bg-gradient-to-b from-red-400 to-rose-600">English is Easy!</h1>
                 <h2 className="text-3xl font-bold m-2 p-2 text-rose-600 text-opacity-80">free English study guides for ESL learners</h2>

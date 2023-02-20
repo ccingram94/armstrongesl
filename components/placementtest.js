@@ -377,9 +377,9 @@ export default function PlacementTest () {
 
 
     return (
-        <div className="w-screen min-h-screen pt-12 bg-gradient-to-b from-rose-100 to-pink-100 flex flex-col items-center z-2">
+        <div className="w-screen min-h-screen pt-12 bg-gradient-to-b from-white to-red-200 flex flex-col items-center z-2">
             {!begin &&
-                <div className="flex flex-col justify-center items-center text-center px-12 relative">
+                <div className="flex flex-col justify-center items-center text-center px-12">
                     <h1 className="text-6xl font-bold p-2 m-2 text-rose-600">English Placement Test</h1>
                     <div className="max-w-lg text-md p-2 m-2 flex flex-col text-rose-700">
                         <p className="p-2">Welcome to our free online English language placement test!</p>

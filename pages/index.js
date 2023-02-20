@@ -29,7 +29,6 @@ export default function Home() {
       <div className="flex flex-row flex-wrap">
         <HeroLevels />
       </div>
-      
       <HeroClasses />
       <AboutTeacher />
       <Footer />
