@@ -5,16 +5,15 @@ import Link from 'next/link'
 export default function HeroLevels () {
     return (
         <>
-        <div className="w-screen pb-24 bg-gradient-to-b from-red-100 to-rose-200 flex flex-row flex-wrap justify-center items-center z-2">
-
-            <div className="flex flex-col px-12 pt-24 relative">
-                <h1 className="text-6xl font-bold p-2 m-2 text-rose-600">English is Easy!</h1>
+        <div className="w-screen pb-24 bg-gradient-to-b from-rose-100 to-rose-200 flex flex-row flex-wrap justify-center items-center z-2">
+            <div className="flex flex-col px-12">
+                <h1 className="text-6xl font-bold p-2 m-2 text-transparent bg-clip-text bg-gradient-to-b from-red-400 to-rose-600">English is Easy!</h1>
                 <h2 className="text-3xl font-bold m-2 p-2 text-rose-600 text-opacity-80">free English study guides for ESL learners</h2>
                 <Link href="/learn">
-                    <button className="p-4 m-2 drop-shadow-2xl max-w-fit rounded-xl bg-gradient-to-r from-rose-600 to-pink-600 opacity-80 hover:opacity-100 text-xl font-bold text-rose-100 text-start transition-all">Explore</button>
+                    <button className="p-4 m-2 drop-shadow-2xl max-w-fit rounded-xl bg-gradient-to-r from-red-600 to-pink-600 via-rose-600 opacity-80 hover:opacity-100 text-xl font-bold text-rose-100 text-start transition-all">Explore</button>
                 </Link>
                 <Link href="/freeplacementtest">
-                    <button className="p-4 m-2 drop-shadow-2xl max-w-fit rounded-xl bg-gradient-to-r from-rose-600 to-pink-600 opacity-80 hover:opacity-100 text-xl font-bold text-rose-100 text-start transition-all">Free Placement Test</button>
+                    <button className="p-4 m-2 drop-shadow-2xl max-w-fit rounded-xl bg-gradient-to-r from-rose-600 to-pink-600 via-rose-600 opacity-80 hover:opacity-100 text-xl font-bold text-rose-100 text-start transition-all">Free Placement Test</button>
                 </Link>
             </div>
 
