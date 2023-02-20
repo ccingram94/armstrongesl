@@ -22,9 +22,7 @@ export default function Classes() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <div className='min-h-screen bg-rose-600'>
-        <HeroClasses />
-      </div>
+      <HeroClasses />
       <Footer />
     </>
   )
