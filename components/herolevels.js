@@ -10,10 +10,10 @@ export default function HeroLevels () {
                 <h1 className="text-6xl font-bold p-2 m-2 text-transparent bg-clip-text bg-gradient-to-b from-red-400 to-rose-600">English is Easy!</h1>
                 <h2 className=" text-xl lg:text-2xl font-bold m-2 p-2 text-rose-600 text-opacity-80">free English study guides for ESL learners</h2>
                 <Link href="/learn">
-                    <button className="p-4 m-2 drop-shadow-2xl max-w-fit rounded-xl bg-gradient-to-r from-red-600 to-pink-600 via-rose-600 opacity-80 hover:opacity-100 text-xl font-bold text-rose-100 text-start transition-all">Explore</button>
+                    <button className="p-4 m-2 drop-shadow-2xl max-w-fit rounded-xl bg-gradient-to-br from-rose-600 to-red-600 via-rose-600 opacity-80 hover:opacity-100 text-xl font-bold text-rose-100 text-start transition-all">Explore</button>
                 </Link>
                 <Link href="/freeplacementtest">
-                    <button className="p-4 m-2 drop-shadow-2xl max-w-fit rounded-xl bg-gradient-to-r from-rose-600 to-pink-600 via-rose-600 opacity-80 hover:opacity-100 text-xl font-bold text-rose-100 text-start transition-all">Free Placement Test</button>
+                    <button className="p-4 m-2 drop-shadow-2xl max-w-fit rounded-xl bg-gradient-to-br from-rose-600 to-red-600 via-rose-600 opacity-80 hover:opacity-100 text-xl font-bold text-rose-100 text-start transition-all">Free Placement Test</button>
                 </Link>
             </div>
 
@@ -24,7 +24,7 @@ export default function HeroLevels () {
                     <Link href="/learn/beginner">
                         <div className="flex flex-col text-center justify-center items-center relative p-2 m-4 opacity-90 hover:opacity-100 transition-all">
                             <svg viewBox="0 0 200 200 fill" xmlns="http://www.w3.org/2000/svg" className="drop-shadow-2xl h-60 w-36 overflow-visible">
-                                <path fill="#FF0066" d="M56.4,-14.6C66.2,11.8,62.5,46.3,43.7,59.9C24.9,73.5,-8.9,66.1,-34.4,47.5C-60,28.9,-77.3,-0.9,-70.1,-23.7C-63,-46.4,-31.5,-62.1,-4.1,-60.8C23.3,-59.5,46.6,-41.1,56.4,-14.6Z" transform="translate(100 100),scale(1.5,2)" />
+                                <path fill="#E11D48" d="M56.4,-14.6C66.2,11.8,62.5,46.3,43.7,59.9C24.9,73.5,-8.9,66.1,-34.4,47.5C-60,28.9,-77.3,-0.9,-70.1,-23.7C-63,-46.4,-31.5,-62.1,-4.1,-60.8C23.3,-59.5,46.6,-41.1,56.4,-14.6Z" transform="translate(100 100),scale(1.5,2)" />
                             </svg>
                             <p className="absolute top-1/2 left-1/3 font-bold text-xl lg:text-xl text-rose-100">Beginner</p>
                         </div>
@@ -33,7 +33,7 @@ export default function HeroLevels () {
                     <Link href="/learn/intermediate">
                         <div className="flex flex-col text-center justify-center items-center relative p-2 m-4 opacity-90 hover:opacity-100 transition-all">
                             <svg viewBox="0 0 200 200 fill" xmlns="http://www.w3.org/2000/svg" className="drop-shadow-2xl h-60 w-36 overflow-visible">
-                                <path fill="#FF0066" d="M58.3,-2.7C58.3,27.5,29.1,55,-0.4,55C-30,55,-59.9,27.5,-59.9,-2.7C-59.9,-32.8,-30,-65.6,-0.4,-65.6C29.1,-65.6,58.3,-32.8,58.3,-2.7Z" transform="translate(100 100),scale(1.5,2)" />
+                                <path fill="#E11D48" d="M58.3,-2.7C58.3,27.5,29.1,55,-0.4,55C-30,55,-59.9,27.5,-59.9,-2.7C-59.9,-32.8,-30,-65.6,-0.4,-65.6C29.1,-65.6,58.3,-32.8,58.3,-2.7Z" transform="translate(100 100),scale(1.5,2)" />
                             </svg>
                             <div className="absolute top-1/3 left-1/3 font-bold text-xl lg:text-xl text-rose-100">
                                 <p>Intermediate</p>
@@ -44,7 +44,7 @@ export default function HeroLevels () {
                     <Link href="/learn/advanced">
                         <div className="flex flex-col text-center justify-center items-center relative p-2 m-4 opacity-90 hover:opacity-100 transition-all">
                             <svg viewBox="0 0 200 200 fill" xmlns="http://www.w3.org/2000/svg" className="drop-shadow-2xl h-60 w-36 overflow-visible">
-                                <path fill="#FF0066" d="M63.4,-35.5C74.5,-17.5,70.4,10.4,57.3,33.9C44.2,57.4,22.1,76.6,0.2,76.5C-21.8,76.4,-43.5,57.1,-52.6,35.9C-61.7,14.6,-58.1,-8.4,-47.2,-26.4C-36.4,-44.3,-18.2,-57.2,4,-59.5C26.2,-61.8,52.4,-53.6,63.4,-35.5Z" transform="translate(100 100),scale(1.5,2)" />
+                                <path fill="#E11D48" d="M63.4,-35.5C74.5,-17.5,70.4,10.4,57.3,33.9C44.2,57.4,22.1,76.6,0.2,76.5C-21.8,76.4,-43.5,57.1,-52.6,35.9C-61.7,14.6,-58.1,-8.4,-47.2,-26.4C-36.4,-44.3,-18.2,-57.2,4,-59.5C26.2,-61.8,52.4,-53.6,63.4,-35.5Z" transform="translate(100 100),scale(1.5,2)" />
                             </svg>
                             <p className="absolute top-1/2 left-1/3 font-bold text-xl lg:text-xl text-rose-100">Advanced</p>
                         </div>  

@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function LevelIntro2 () {
     return (
-        <div className="w-screen pb-24 bg-gradient-to-b from-rose-100 to-pink-100 flex flex-row flex-wrap justify-center items-center z-2">
+        <div className="w-screen pb-24 bg-gradient-to-b from-white to-red-200 flex flex-row flex-wrap justify-center items-center z-2">
 
             <div className="flex flex-col px-12 pt-24 relative">
                 <h1 className="text-6xl font-bold p-2 m-2 text-rose-600">Intermediate</h1>
