@@ -6,6 +6,7 @@ import Footer from '@/components/footer'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Flashcard from '@/components/flashcard'
+import vocabulary from '@/data'
 
 const inter = Inter({ subsets: ['latin'] })
 

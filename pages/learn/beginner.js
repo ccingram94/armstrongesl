@@ -24,7 +24,6 @@ export default function Beginner() {
       </Head>
       <Header />
       <LevelIntro />
-      <BeginnerSections />
       <Footer />
     </>
   )

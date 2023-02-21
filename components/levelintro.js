@@ -1,10 +1,12 @@
 
 import Image from "next/image"
 import Link from 'next/link'
+import { UserCircleIcon } from '@heroicons/react/24/solid'
+import { ChevronDownIcon } from '@heroicons/react/24/solid'
 
 export default function LevelIntro () { 
     return (
-        <div className="w-screen pb-24 bg-gradient-to-b from-white to-red-200 flex flex-row flex-wrap justify-center items-center z-2">
+        <div className="w-full h-full pb-24 bg-gradient-to-b from-white to-red-200 flex flex-row flex-wrap justify-center items-center z-2">
 
             <div className="flex flex-col px-12 pt-24 relative">
                 <h1 className="text-6xl font-bold p-2 m-2 text-rose-600">Beginner</h1>
@@ -20,42 +22,45 @@ export default function LevelIntro () {
                 </p>
             </div>
 
-            <div className="flex flex-col flex-wrap justify-center items-center content-center p-2 mt-12">
+            <div className="rounded-xl p-2 m-2 bg-gradient-to-r from-rose-600 to-pink-600 flex flex-col justify-center items-center text-center">
+            <p className='text-2xl font-bold text-white p-2 m-2'>Beginner Study Guides</p>
+            <div className='flex flex-row flex-wrap max-w-4xl justify-center items-center text-rose-100'>
+                
+                <Link href="/learn/beginner/greetings">
+                    <div className='flex flex-col p-2 m-2 border-2 border-white rounded-xl hover:bg-white hover:text-rose-800 transition-all'>
+                        <h3 className='font-bold text-xl'>Greetings and Introductions</h3>
+                        <p className='text-sm max-w-sm p-2'>basic phrases and vocabulary for introducing oneself and greeting others, such as "Hello", "Goodbye", "What's your name?", "My name is..."</p>
+                    </div>
+                </Link>
+                
 
-                <div className="flex flex-row flex-wrap justify-center items-center content-center p-2 mt-12">
-
-                    <Link href="/learn/beginner">
-                        <div className="flex flex-col text-center justify-center items-center relative p-2 m-4 opacity-90 hover:opacity-100 transition-all">
-                            <svg viewBox="0 0 200 200 fill" xmlns="http://www.w3.org/2000/svg" className="drop-shadow-2xl h-48 w-36 overflow-visible">
-                                <path fill="#FF0066" d="M56.4,-14.6C66.2,11.8,62.5,46.3,43.7,59.9C24.9,73.5,-8.9,66.1,-34.4,47.5C-60,28.9,-77.3,-0.9,-70.1,-23.7C-63,-46.4,-31.5,-62.1,-4.1,-60.8C23.3,-59.5,46.6,-41.1,56.4,-14.6Z" transform="translate(100 100),scale(1.5,2)" />
-                            </svg>
-                            <p className="absolute top-1/2 left-1/3 font-bold text-xl lg:text-xl text-rose-100">Beginner</p>
-                        </div>
-                    </Link>
-
-                    <Link href="/learn/intermediate">
-                        <div className="flex flex-col text-center justify-center items-center relative p-2 m-4 opacity-90 hover:opacity-100 transition-all">
-                            <svg viewBox="0 0 200 200 fill" xmlns="http://www.w3.org/2000/svg" className="drop-shadow-2xl h-48 w-36 overflow-visible">
-                                <path fill="#FF0066" d="M58.3,-2.7C58.3,27.5,29.1,55,-0.4,55C-30,55,-59.9,27.5,-59.9,-2.7C-59.9,-32.8,-30,-65.6,-0.4,-65.6C29.1,-65.6,58.3,-32.8,58.3,-2.7Z" transform="translate(100 100),scale(1.5,2)" />
-                            </svg>
-                            <div className="absolute top-1/3 left-1/3 font-bold text-xl lg:text-xl text-rose-100">
-                                <p>Intermediate</p>
-                            </div>
-                        </div>  
-                    </Link> 
-
-                    <Link href="/learn/advanced">
-                        <div className="flex flex-col text-center justify-center items-center relative p-2 m-4 opacity-90 hover:opacity-100 transition-all">
-                            <svg viewBox="0 0 200 200 fill" xmlns="http://www.w3.org/2000/svg" className="drop-shadow-2xl h-48 w-36 overflow-visible">
-                                <path fill="#FF0066" d="M63.4,-35.5C74.5,-17.5,70.4,10.4,57.3,33.9C44.2,57.4,22.1,76.6,0.2,76.5C-21.8,76.4,-43.5,57.1,-52.6,35.9C-61.7,14.6,-58.1,-8.4,-47.2,-26.4C-36.4,-44.3,-18.2,-57.2,4,-59.5C26.2,-61.8,52.4,-53.6,63.4,-35.5Z" transform="translate(100 100),scale(1.5,2)" />
-                            </svg>
-                            <p className="absolute top-1/2 left-1/3 font-bold text-xl lg:text-xl text-rose-100">Advanced</p>
-                        </div>  
-                    </Link>
-
-
+                <div className='flex flex-col p-2 m-2 border-2 border-white rounded-xl hover:bg-white hover:text-rose-800 transition-all'>
+                    <h3 className='font-bold text-xl'>Numbers and Counting</h3>
+                    <p className='text-sm max-w-sm p-2'>how to count and use numbers in English, including basic math operations, such as addition, subtraction, multiplication, and division</p>
                 </div>
+
+                <div className='flex flex-col p-2 m-2 border-2 border-white rounded-xl hover:bg-white hover:text-rose-800 transition-all'>
+                    <h3 className='font-bold text-xl'>The Calendar, Weather, and Seasons</h3>
+                    <p className='text-sm max-w-sm p-2'>how to talk about the date, the calendar, weekdays, weather and seasons, including describing the time and discussing the weather</p>
+                </div>
+
+                <div className='flex flex-col p-2 m-2 border-2 border-white rounded-xl hover:bg-white hover:text-rose-800 transition-all'>
+                    <h3 className='font-bold text-xl'>Daily Routine and Activities</h3>
+                    <p className='text-sm max-w-sm p-2'>how to discuss daily routines and activities like work, school, household chores, shopping, and hobbies</p>
+                </div>
+
+                <div className='flex flex-col p-2 m-2 border-2 border-white rounded-xl hover:bg-white hover:text-rose-800 transition-all'>
+                    <h3 className='font-bold text-xl'>Food and Drink</h3>
+                    <p className='text-sm max-w-sm p-2'>vocabulary and phrases related to food and drink, including daily meals, ordering food in a restaurant, and describing food preferences</p>
+                </div>
+
+                <div className='flex flex-col p-2 m-2 border-2 border-white rounded-xl hover:bg-white hover:text-rose-800 transition-all'>
+                    <h3 className='font-bold text-xl'>Basic Grammar</h3>
+                    <p className='text-sm max-w-sm p-2'>vocabulary and expressions related to family and relationships such as "mother", "father", "sister", "brother", "wife", or "husband"</p>
+                </div>
+
             </div>
+        </div>
 
         </div>
     )
